@@ -9,7 +9,7 @@ public class Concesionario {
         Motos vespa = new Motos(125, 50);
         JOptionPane.showMessageDialog(null, "Imposto" + vespa.calcularImposto());
         JOptionPane.showMessageDialog(null, vespa.arrancar());
-        Coche citroen = new Coche(4, 1003, 65);
+        Coche citroen = new Coche(65, 1003, 4);
         JOptionPane.showMessageDialog(null, "Imposto" + citroen.calcularImposto());
         JOptionPane.showMessageDialog(null, citroen.arrancar());
         Camion barreiro = new Camion(3000, 400, 8);
