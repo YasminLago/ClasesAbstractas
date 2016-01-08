@@ -24,7 +24,7 @@ public class Coche extends Vehiculo {
 
     @Override
     public String toString() {
-        return "Coche{" + "nPortas=" + nPortas + '}';
+        return "Coche{" + "nPortas=" + nPortas +"Potencia"+getPotencia()+"Cilindrada"+getCilindrada()+'}';
     }
     
 }
