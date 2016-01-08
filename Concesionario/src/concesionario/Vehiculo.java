@@ -16,8 +16,8 @@ public abstract class Vehiculo {
     public int getPotencia() {
         return potencia;
     }
-    public void arrancar(){
-        System.out.println("Arranca o vehiculo");
+    public String arrancar(){
+        return "Arranca o vehiculo";
     }
     public abstract double calcularImposto();
 
