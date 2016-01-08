@@ -19,7 +19,7 @@ public class Coche extends Vehiculo {
         this.nPortas = nPortas;
     }
     public double calcularImposto(){
-        return (getPotencia()/20)+(getPotencia()*20);
+        return (getCilindrada()/20)+(getPotencia()*20);
     }
 
     @Override
