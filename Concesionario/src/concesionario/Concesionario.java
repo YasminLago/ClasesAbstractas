@@ -15,7 +15,8 @@ public class Concesionario {
         Camion barreiro = new Camion(3000, 400, 8);
         JOptionPane.showMessageDialog(null, "Imposto" + barreiro.calcularImposto());
         JOptionPane.showMessageDialog(null, barreiro.arrancar());
-
+        JOptionPane.showMessageDialog(null, citroen.toString());
+        
     }
 
 }
