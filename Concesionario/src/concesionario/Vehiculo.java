@@ -19,7 +19,7 @@ public abstract class Vehiculo {
     public String arrancar(){
         return "Arranca o vehiculo";
     }
-    public abstract double calcularImposto();
+    public abstract float calcularImposto();
 
     @Override
     public String toString() {
