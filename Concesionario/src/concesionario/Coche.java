@@ -18,7 +18,7 @@ public class Coche extends Vehiculo {
     public void setnPortas(int nPortas) {
         this.nPortas = nPortas;
     }
-    public double calcularImposto(){
+    public float calcularImposto(){
         return (getCilindrada()/20)+(getPotencia()*20);
     }
 
