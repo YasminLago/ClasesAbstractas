@@ -9,7 +9,7 @@ public class Motos extends Vehiculo{
     public Motos(int cilindrada, int potencia) {
         super(cilindrada, potencia);
     }
-    public double calcularImposto(){
+    public float calcularImposto(){
         return (getCilindrada()/30)+(getPotencia()*10);
     }
 
