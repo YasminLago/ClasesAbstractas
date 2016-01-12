@@ -19,7 +19,7 @@ public class Camion extends Vehiculo{
     public void setnRodas(int nRodas) {
         this.nRodas = nRodas;
     }
-    public double calcularImposto(){
+    public float calcularImposto(){
         return (getCilindrada()/30)+(getPotencia()*20)+(nRodas*20);
     }
 
